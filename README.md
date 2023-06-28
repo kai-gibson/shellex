@@ -25,6 +25,7 @@ int main() {
     std::cout << std_out << "\n";
 }
 ```
+then compile with the ```-lshellex``` flag
 
 
 # Performance
