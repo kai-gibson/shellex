@@ -12,7 +12,6 @@ Quickstart:
 #include <shx/shellex.h>
 #include <iostream>
 #include <string>
-#include <tuple>
 
 int main() {
     std::string std_out = shx::ex("ls -lah");    
