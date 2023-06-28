@@ -3,7 +3,7 @@
 
 This library uses:
 
-ps://dev.to/aggsol/calling-shell-commands-from-c-8ej 
+https://dev.to/aggsol/calling-shell-commands-from-c-8ej
 
 as a template to create a usable C++ library for running shell commands
 
