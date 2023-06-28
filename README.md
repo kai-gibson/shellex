@@ -29,8 +29,9 @@ int main() {
 
 # Performance
 
-An example shell script that creates a lot of files, writes to them
-deletes them all can be found in the examples. The output from perf is:
+An example shell script that creates a lot of files, writes to them, and
+then deletes them all can be found in the examples. The output from perf
+is:
 
 ```
  Performance counter stats for './examples/test.sh':
