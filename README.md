@@ -7,14 +7,14 @@ https://dev.to/aggsol/calling-shell-commands-from-c-8ej
 
 as a template to create a usable C++ library for running shell commands
 
-## Install Instructions
+# Install Instructions
 ```
 git clone https://github.com/kai-gibson/shellex.git
 cd shellex
 sudo make install
 ```
 
-# Quickstart:
+# Quickstart
 ```
 #include <shx/shellex.h>
 #include <iostream>
