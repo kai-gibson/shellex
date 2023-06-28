@@ -1,7 +1,11 @@
 # shellex
 ## A POSIX scripting library for C++
 
-This library uses [this](ps://dev.to/aggsol/calling-shell-commands-from-c-8ej) as a template to create a usable C++ library for running shell commands
+This library uses:
+
+ps://dev.to/aggsol/calling-shell-commands-from-c-8ej 
+
+as a template to create a usable C++ library for running shell commands
 
 Quickstart:
 ```
