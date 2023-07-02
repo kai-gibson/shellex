@@ -5,8 +5,14 @@
 #include <array>
 
 namespace shx {
+    struct return_data {
+        int exit_code;
+        std::string std_out;
+        std::string std_err;
+    };
+
     std::string ex(std::string cmd, std::string std_in = "");
-    std::tuple<std::string, std::string, int> ex_more(std::string cmd, std::string std_in = "");
+    return_data ex_more(std::string cmd, std::string std_in = "");
     
     class Shellex {
         public:

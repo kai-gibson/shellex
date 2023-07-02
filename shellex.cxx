@@ -20,15 +20,21 @@ std::string shx::ex(std::string cmd, std::string std_in) {
     return shell.std_out;
 }
 
-std::tuple<std::string, std::string, int> shx::ex_more(std::string cmd, std::string std_in) {
+shx::return_data shx::ex_more(std::string cmd, std::string std_in) {
     // Create instance of shellex
     Shellex shell;
     shell.cmd = cmd;
     shell.std_in = std_in;
 
+
     shell.execute();
 
-    return {shell.std_out, shell.std_err, shell.exit_status};
+    return_data ret_data;
+    ret_data.exit_code = shell.exit_status;
+    ret_data.std_out = shell.std_out;
+    ret_data.std_err = shell.std_err;
+
+    return ret_data;
 }
 
 
